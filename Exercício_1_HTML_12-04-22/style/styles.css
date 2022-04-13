@@ -1,18 +1,21 @@
 h1{
     color: gold
 }
-.container {
+.toolbar-menu{
+    align-items: center;
     display: flex;
+    gap: 10px;
+}
+.toolbar-menu a{    
+    color: black;
+}
+.toolbar-menu a:hover{
+    text-decoration: underline;
+    color: aqua;
 }
 .row{
     flex-direction: row;
 }
-.row-reverse{
-    flex-direction: row-reverse;
-}
 .column{
     flex-direction: column;
-}
-.column-reverse{
-    flex-direction: column-reverse;
 }
