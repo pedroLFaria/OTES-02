@@ -1,0 +1,72 @@
+.previsao-tempo-eldorado-animation .dashboard {
+    display: block;
+    padding: 15px 15px 20px;
+    border: 1px solid #eee;
+    background-color: #202125;
+    height: 137px;    
+}
+
+.previsao-tempo-eldorado-animation .container{
+    text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+    display: flex;
+    justify-content: space-around;
+    width:100%
+}
+
+.previsao-tempo-eldorado-animation .box{
+    color: #fafafa; 
+    display: inline-block;
+    text-align: center;   
+    vertical-align: top;
+    padding: 5px;
+    height: 100px;
+}
+
+.previsao-tempo-eldorado-animation .stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+.previsao-tempo-eldorado-animation .weekday{
+    font: normal normal bold 17px Arial;
+}
+
+.previsao-tempo-eldorado-animation .weather-icon{
+    padding: 5px;
+    font-size:32px;
+}
+
+.previsao-tempo-eldorado-animation .max-temp{
+    color: #EB1924; 
+    font: normal normal bold 17px Arial;
+}
+
+.previsao-tempo-eldorado-animation .min-temp{
+    color: #0076BA; 
+    font: normal normal 17px Arial;
+}
+
+.previsao-tempo-eldorado-animation #slideset6 { 
+    position: relative;
+}
+
+.previsao-tempo-eldorado-animation #slideset6 > * {
+    animation: 10s autoplay-previsao-tempo-eldorado-animation infinite linear;
+    position: absolute;
+    opacity: 0.0;
+}  
+
+@keyframes autoplay-previsao-tempo-eldorado-animation {
+    0% {opacity: 0.0}
+    4% {opacity: 1.0}
+    50% {opacity: 1.0}
+    54% {opacity: 0.0}
+    100% {opacity: 0.0}  
+}
+ 
+.previsao-tempo-eldorado-animation #slideset6 > *:nth-child(1) {animation-delay: 0s}
+.previsao-tempo-eldorado-animation #slideset6 > *:nth-child(2) {animation-delay: 5s}
